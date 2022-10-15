@@ -88,7 +88,7 @@ int print_octal(va_list types, char buffer[],
  * @size: Size specifier
  * Return: Number of chars printed
  */
-OBOBOBint print_hexadecimal(va_list types, char buffer[],
+int print_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	return (print_hexa(types, "0123456789abcdef", buffer,
@@ -97,7 +97,7 @@ int print_octal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
-OBOBOB * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
+ * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -115,7 +115,7 @@ int print_hexa_upper(va_list types, char buffer[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_hexa - Prints a hexadecimal number in lower or upper
+OBOBOB * print_hexa - Prints a hexadecimal number in lower or upper
  * @types: Lista of arguments
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
@@ -124,7 +124,7 @@ int print_hexa_upper(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * @size: Size specification
+OBOBOB * @size: Size specification
  * Return: Number of chars printed
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
